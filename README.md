@@ -66,8 +66,7 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015
         <tr>
             <td>1Turtle</td>
             <td></td>
-            <td></td>
-            <td><a href="https://github.com/1Turtle/AdventOfCode2020">AdventOfCode2020</a></td>
+            <td colspan 2 align="center"><a href="https://github.com/1Turtle/AdventOfCode">AdventOfCode</a></td>
         </tr>
         <tr>
             <td>joblo2213</td>
