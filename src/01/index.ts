@@ -21,7 +21,7 @@ export default class Day01 implements Day {
               found = true;
               return i;
             }
-            return found === true ? a : a + b;
+            return found ? a : a + b;
           }
         ),
       },
