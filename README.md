@@ -65,7 +65,7 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/year
         </tr>
         <tr>
             <td>1Turtle</td>
-						<td></td>
+            <td></td>
             <td></td>
             <td><a href="https://github.com/1Turtle/AdventOfCode2020">AdventOfCode2020</a></td>
         </tr>
@@ -77,13 +77,15 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/year
         </tr>
         <tr>
             <td>Gewi413</td>
-            <td colspan=2></td>
+            <td></td>
+            <td></td>
             <td><a href="https://github.com/Gewi413/AdventOfCode">AdventOfCode</a></td>
         </tr>
         <tr>
           <td>luftkeks</td>
           <td><a href="https://github.com/luftkeks/AdventOfCode">AdventOfCode</a></td>
-          <td colspan=2></td>
+          <td></td>
+          <td></td>
         </tr>
     </tbody>
 </table>
