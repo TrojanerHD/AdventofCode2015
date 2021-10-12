@@ -1,6 +1,6 @@
 # Advent of Code 2020
 
-My personal solutions of the [Advent of Code 2015](https://adventofcode.com/year/2015) challenge
+My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015) challenge
 
 [![Language](https://img.shields.io/badge/Language-TypeScript-blue)](https://www.typescriptlang.org/)
 [![Environment](https://img.shields.io/badge/Environment-Deno-white)](https://deno.land/)
