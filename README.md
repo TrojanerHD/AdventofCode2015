@@ -32,6 +32,7 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/year
             <td>networkException</td>
 						<td></td>
             <td><a href="https://github.com/networkException/AdventOfCode">AdventOfCode</a></td>
+            <td></td>
         </tr>
         <tr>
             <td>derNiklaas</td>
@@ -82,6 +83,7 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/year
         <tr>
           <td>luftkeks</td>
           <td><a href="https://github.com/luftkeks/AdventOfCode">AdventOfCode</a></td>
+          <td colspan=2></td>
         </tr>
     </tbody>
 </table>
