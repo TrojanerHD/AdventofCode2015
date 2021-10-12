@@ -79,5 +79,9 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/year
             <td colspan=2></td>
             <td><a href="https://github.com/Gewi413/AdventOfCode">AdventOfCode</a></td>
         </tr>
+        <tr>
+          <td>luftkeks</td>
+          <td><a href="https://github.com/luftkeks/AdventOfCode">AdventOfCode</a></td>
+        </tr>
     </tbody>
 </table>
