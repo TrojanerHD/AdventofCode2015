@@ -4,7 +4,6 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-
     {
       "name": "Launch Deno",
       "request": "launch",
@@ -12,10 +11,17 @@
       "program": "src/main.ts",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "deno",
-      "runtimeArgs": ["run", "--inspect-brk", "--unstable", "--allow-read", "--allow-net" ,"--allow-write=./runtimes.json"],
+      "runtimeArgs": [
+        "run",
+        "--inspect-brk",
+        "--unstable",
+        "--allow-read",
+        "--allow-net",
+        "--allow-write=./runtimes.json"
+      ],
       "attachSimplePort": 9229,
       "outputCapture": "std",
-      "args": ["5"]
+      "args": ["6"]
     }
   ]
 }
