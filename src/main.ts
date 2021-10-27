@@ -13,18 +13,17 @@ export type Response = Log[];
 
 export class Solution {
   private _day: string;
+  private _runTimes: DayTime[];
 
-  constructor(day: number) {
+  constructor(day: number, runTimes: DayTime[]) {
     this._day = day.toString();
     if (day <= 9) this._day = `0${this._day}`;
+    this._runTimes = runTimes;
   }
 
   async readValues(): Promise<void> {
     let runTimesIndex: number = -1;
-    const runTimes: DayTime[] = existsSync('./runtimes.json')
-      ? JSON.parse(Deno.readTextFileSync('./runtimes.json'))
-      : [];
-    const currentDayTime: DayTime | undefined = runTimes.find(
+    const currentDayTime: DayTime | undefined = this._runTimes.find(
       (value: DayTime, i: number): boolean => {
         runTimesIndex = i;
         return value.day === this._day;
@@ -48,9 +47,12 @@ export class Solution {
     const timeEnd: number = performance.now();
     Deno.chdir('../../');
     const totalTime: number = timeEnd - timeStart;
-    if (!currentDayTime) runTimes.push({ day: this._day, time: Math.round(totalTime / 1000) });
-    else runTimes[runTimesIndex].time = Math.round(totalTime / 1000);
-    Deno.writeTextFileSync('./runtimes.json', JSON.stringify(runTimes));
+    if (!currentDayTime)
+      this._runTimes.push({
+        day: this._day,
+        time: Math.round(totalTime / 1000),
+      });
+    else this._runTimes[runTimesIndex].time = Math.round(totalTime / 1000);
     for (let i = 0; i < response.length; i++) {
       const log: Log = response[i];
       this.logger(i + 1, log.message, log.value);
@@ -65,7 +67,13 @@ export class Solution {
   }
 }
 
+const runTimes: DayTime[] = existsSync('./runtimes.json')
+  ? JSON.parse(Deno.readTextFileSync('./runtimes.json'))
+  : [];
+
 for (const arg of Deno.args) {
-  if (!isNaN(+arg)) await new Solution(+arg).readValues();
+  if (!isNaN(+arg)) await new Solution(+arg, runTimes).readValues();
   else console.error(`Parameter ${arg} is not a number`);
 }
+
+Deno.writeTextFileSync('./runtimes.json', JSON.stringify(runTimes));
