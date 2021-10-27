@@ -12,33 +12,33 @@ export interface DayTime {
 export type Response = Log[];
 
 export class Solution {
-  private _day: string;
-  private _runTimes: DayTime[];
+  #day: string;
+  #runTimes: DayTime[];
 
   constructor(day: number, runTimes: DayTime[]) {
-    this._day = day.toString();
-    if (day <= 9) this._day = `0${this._day}`;
-    this._runTimes = runTimes;
+    this.#day = day.toString();
+    if (day <= 9) this.#day = `0${this.#day}`;
+    this.#runTimes = runTimes;
   }
 
   async readValues(): Promise<void> {
     let runTimesIndex: number = -1;
-    const currentDayTime: DayTime | undefined = this._runTimes.find(
+    const currentDayTime: DayTime | undefined = this.#runTimes.find(
       (value: DayTime, i: number): boolean => {
         runTimesIndex = i;
-        return value.day === this._day;
+        return value.day === this.#day;
       }
     );
     if (currentDayTime)
       console.log(
-        `Day ${this._day} is expected to run about ${currentDayTime.time}s`
+        `Day ${this.#day} is expected to run about ${currentDayTime.time}s`
       );
-    Deno.chdir(`./src/${this._day}`);
+    Deno.chdir(`./src/${this.#day}`);
     if (!existsSync('./index.ts')) {
-      console.error(`Day ${this._day} is not solved`);
+      console.error(`Day ${this.#day} is not solved`);
       return;
     }
-    const execute: any = await import(`./${this._day}/index.ts`);
+    const execute: any = await import(`./${this.#day}/index.ts`);
     const file: string = Deno.readTextFileSync(`./values.txt`);
     const day: Day = new execute.default();
 
@@ -48,21 +48,21 @@ export class Solution {
     Deno.chdir('../../');
     const totalTime: number = timeEnd - timeStart;
     if (!currentDayTime)
-      this._runTimes.push({
-        day: this._day,
+      this.#runTimes.push({
+        day: this.#day,
         time: Math.round(totalTime / 1000),
       });
-    else this._runTimes[runTimesIndex].time = Math.round(totalTime / 1000);
+    else this.#runTimes[runTimesIndex].time = Math.round(totalTime / 1000);
     for (let i = 0; i < response.length; i++) {
       const log: Log = response[i];
       this.logger(i + 1, log.message, log.value);
     }
-    console.log(`It took ${totalTime}ms to solve day ${this._day}`);
+    console.log(`It took ${totalTime}ms to solve day ${this.#day}`);
   }
 
   private logger(part: number, message: string, value: number) {
     console.log(
-      `[Year 2020, Day ${this._day}, Part: ${part}] ${message}: ${value}`
+      `[Year 2020, Day ${this.#day}, Part: ${part}] ${message}: ${value}`
     );
   }
 }
