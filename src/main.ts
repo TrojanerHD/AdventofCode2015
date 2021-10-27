@@ -36,6 +36,13 @@ export class Solution {
     Deno.chdir(`./src/${this.#day}`);
     if (!existsSync('./index.ts')) {
       console.error(`Day ${this.#day} is not solved`);
+      Deno.chdir('../../');
+      return;
+    }
+
+    if (!existsSync('./values.txt')) {
+      console.error(`Day ${this.#day} has no provided values`);
+      Deno.chdir('../../');
       return;
     }
     const execute: any = await import(`./${this.#day}/index.ts`);
