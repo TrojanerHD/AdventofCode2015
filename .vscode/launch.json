@@ -21,7 +21,7 @@
       ],
       "attachSimplePort": 9229,
       "outputCapture": "std",
-      "args": ["6"]
+      "args": ["7"]
     }
   ]
 }
