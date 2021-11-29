@@ -15,6 +15,7 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015
 						<th>2015</th>
             <th>2019</th>
             <th>2020</th>
+            <th>…</th>
         </tr>
     </thead>
     <tbody>
@@ -23,15 +24,18 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015
 						<td>➡️ <a href="https://github.com/TrojanerHD/AdventofCode2015">AdventofCode2015</a></td>
             <td><a href="https://github.com/TrojanerHD/AdventofCode2019">AdventofCode2019</a></td>
             <td><a href="https://github.com/TrojanerHD/AdventofCode2020">AdventofCode2020</a></td>
+            <td></td>
         </tr>
         <tr>
             <td>Schlauer-Hax</td>
             <td colspan=3 align="center"><a href="https://github.com/Schlauer-Hax/advent-of-code">advent-of-code</a></td>
+            <td></td>
         </tr>
         <tr>
             <td>networkException</td>
 						<td></td>
-            <td><a href="https://github.com/networkException/AdventOfCode">AdventOfCode</a></td>
+            <td><a href="https://github.com/networkException/AdventOfCode/tree/d2caac4eb16442af3da2e88affa40ae5af6e81d4">AdventOfCode (Commit)</a></td>
+            <td><a href="https://github.com/networkException/AdventOfCode/tree/master/previous/2020">AdventOfCode/previous/2020</a></td>
             <td></td>
         </tr>
         <tr>
@@ -39,18 +43,21 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015
 						<td></td>
             <td><a href="https://github.com/derNiklaas/Advent-of-Code-2019">Advent-of-Code-2019</a></td>
             <td><a href="https://github.com/derNiklaas/AoC-2020">AoC-2020</a></td>
+            <td></td>
         </tr>
         <tr>
             <td>LeMoonStar</td>
 						<td></td>
             <td><a href="https://github.com/LeMoonStar/AdventOfCode2019Solutions">AdventOfCode2019Solutions</a></td>
             <td><a href="https://github.com/LeMoonStar/AoC20">AoC20</a></td>
+            <td></td>
         </tr>
         <tr>
             <td>andi-makes</td>
 						<td></td>
             <td><a href="https://github.com/andi-makes/AdventOfCode2019">AdventOfCode2019</a></td>
             <td><a href="https://github.com/andi-makes/aoc2020">aoc2020</a></td>
+            <td></td>
         </tr>
         <tr>
             <td>feldim2425</td>
@@ -65,8 +72,10 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015
         </tr>
         <tr>
             <td>1Turtle</td>
+            <td><a href="https://github.com/1Turtle/AdventOfCode/tree/main/2015%20-%20LUA">AdventOfCode/2015 - LUA</a></td>
             <td></td>
-            <td colspan 2 align="center"><a href="https://github.com/1Turtle/AdventOfCode">AdventOfCode</a></td>
+            <td><a href="https://github.com/1Turtle/AdventOfCode/tree/main/2020%20-%20CPP">AdventOfCode/2020 - CPP</a></td>
+            <td></td>
         </tr>
         <tr>
             <td>joblo2213</td>
@@ -78,13 +87,20 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015
             <td>Gewi413</td>
             <td></td>
             <td></td>
-            <td><a href="https://github.com/Gewi413/AdventOfCode">AdventOfCode</a></td>
+            <td><a href="https://github.com/Gewi413/AdventOfCode/tree/2020">AdventOfCode/2020 (branch)</a></td>
         </tr>
         <tr>
           <td>luftkeks</td>
           <td><a href="https://github.com/luftkeks/AdventOfCode">AdventOfCode</a></td>
           <td></td>
           <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>noeppi-noeppi</td>
+          <td></td>
+          <td></td>
+          <td><a href="https://github.com/noeppi-noeppi/aoc/tree/master/2020">aoc/2020</a></td>
         </tr>
     </tbody>
 </table>
