@@ -21,7 +21,7 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015
     <tbody>
         <tr>
           <td>TrojanerHD</td>
-					<td>➡️ <a href="https://github.com/TrojanerHD/AdventofCode2015">AdventofCode2015</a></td>
+          <td>➡️ <a href="https://github.com/TrojanerHD/AdventofCode2015">AdventofCode2015</a></td>
           <td><a href="https://github.com/TrojanerHD/AdventofCode2019#check-out-solutions-from-others">AdventofCode2019</a></td>
           <td><a href="https://github.com/TrojanerHD/AdventofCode2020#check-out-solutions-from-others">AdventofCode2020</a></td>
           <td></td>
