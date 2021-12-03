@@ -80,10 +80,10 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015
           <td></td>
         </tr>
         <tr>
-          <td>joblo2213</td>
+          <td>J0B10</td>
           <td></td>
-          <td><a href="https://github.com/joblo2213/AdventOfCode2019">AdventOfCode2019</a></td>
-          <td><a href="https://github.com/joblo2213/AdventOfCode2020">AdventOfCode2020</a></td>
+          <td><a href="https://github.com/J0B10/AdventOfCode2019">AdventOfCode2019</a></td>
+          <td><a href="https://github.com/J0B10/AdventOfCode2020">AdventOfCode2020</a></td>
           <td></td>
         </tr>
         <tr>
