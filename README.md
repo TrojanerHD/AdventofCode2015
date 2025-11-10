@@ -104,6 +104,7 @@ My personal solutions of the [Advent of Code 2015](https://adventofcode.com/2015
           <td>🟥feldim2425</td>
           <td></td>
           <td><a href="https://github.com/feldim2425/AdventOfCode19">AdventOfCode19</a></td>
+          <td></td>
         </tr>
     </tbody>
 </table>
